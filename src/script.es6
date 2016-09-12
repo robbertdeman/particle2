@@ -8,7 +8,7 @@ class Particle {
         this.width = 10;
         this.height = 10;
         this.x = c.width/2
-        this.y = 40;
+        this.y = 50;
         this.xSpeed = (Math.random()*6)-3;
         this.ySpeed = 0.2;
         this.gravity = -0.8;
