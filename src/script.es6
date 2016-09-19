@@ -7,8 +7,9 @@ var particles = [];
 
 class Particle {
     constructor(x, y) {
-        this.width = 10;
-        this.height = 10;
+        const size = Math.random()*20;
+        this.width = size;
+        this.height = size;
         this.x = x;
         this.y = y;
         this.xSpeed = (Math.random()*6)-3;
