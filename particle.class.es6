@@ -32,9 +32,6 @@ class Particle {
         if (this.opacity <= 0) {
             this.isDead = true;
         }
-        if (this.opacity === 0) {
-            console.log("oeps")
-        }
     }
 }
 
