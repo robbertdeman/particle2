@@ -5,7 +5,7 @@ var y;
 
 var particles = [];
 
-const Particle = require("particle.class.es6");
+const Particle = require("../particle.class.es6");
 
 function loop() {
     ctx.clearRect(0,0,c.width,c.height);
@@ -16,6 +16,7 @@ function loop() {
         p.draw();
         p.move();
         p.fadeAndDie();
+
     });
 
     particles = particles.filter (function(p) {
